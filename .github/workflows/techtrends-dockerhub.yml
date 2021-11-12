@@ -23,7 +23,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./project
-          file: ./Dockerfile
+          file: ./project/Dockerfile
           push: true
           tags: ${{ secrets.UDACITY_TECH_TRENDS_DOCKER_ID }}/techtrends:latest
 
