@@ -87,6 +87,7 @@ def metrics():
         status=200,
         mimetype='application/json'
     )
+    print('dummy print')
     return response
     
 # start the application on port 3111
